@@ -1,6 +1,10 @@
+![Manageio logo](./assets/manageio-logo.png)
+
 # manageio
 
-![Manageio logo](./assets/manageio-logo.png)
+![npm](https://img.shields.io/npm/v/manageio)
+![npm](https://img.shields.io/npm/dm/manageio)
+![npm](https://img.shields.io/npm/l/manageio)
 
 A Node.js module that makes exploring files easier.
 
