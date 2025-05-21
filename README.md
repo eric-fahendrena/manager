@@ -1,4 +1,4 @@
-# managerio
+# manageio
 
 A Node.js module that makes exploring files easier.
 
@@ -9,7 +9,7 @@ As soon as you instatiate a `Manager` object, it's like you just opened a file e
 Here is an example of how to use it :
 
 ```js
-const { Manager } = require('managerio');
+const { Manager } = require('manageio');
 
 (async () => {
   const manager = new Manager();
@@ -26,13 +26,13 @@ const { Manager } = require('managerio');
 This module is available through [npm registry](https://www.npmjs.com).
 
 ```sh
-$ npm install managerio
+$ npm install manageio
 ```
 
 ## Usage
 
 ```js
-const { Manager } = require('managerio');
+const { Manager } = require('manageio');
 
 (async () => {
   const manager = new Manager('./path/to/working/directory');

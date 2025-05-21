@@ -1,5 +1,5 @@
 {
-  "name": "managerio",
+  "name": "manageio",
   "version": "1.0.0",
   "description": "Makes file management easier.",
   "main": "index.js",
@@ -8,8 +8,9 @@
     "test": "node ./test/index.js"
   },
   "keywords": [
-    "managerio",
-    "manager-io",
+    "fs",
+    "path",
+    "manageio",
     "file-manager"
   ],
   "author": "Jean Eric Razanapahendrena",
