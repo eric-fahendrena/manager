@@ -1,17 +1,16 @@
 {
-  "name": "manager",
+  "name": "managerio",
   "version": "1.0.0",
-  "description": "This library makes file management easier.",
+  "description": "Makes file management easier.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "node ./test/index.js"
   },
   "keywords": [
-    "filer",
-    "filerjs",
-    "manager",
-    "file"
+    "managerio",
+    "manager-io",
+    "file-manager"
   ],
   "author": "Jean Eric Razanapahendrena",
   "license": "MIT"
