@@ -1,0 +1,18 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "This library makes file management easier.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "keywords": [
+    "filer",
+    "filerjs",
+    "manager",
+    "file"
+  ],
+  "author": "Jean Eric Razanapahendrena",
+  "license": "MIT"
+}
