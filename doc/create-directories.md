@@ -1,6 +1,6 @@
 # Create directories
 
-### `manager.createDir(dirname: string): Promise<string>`
+##### `manager.createDir(dirname: string): Promise<string>`
 
 Creates a directory if it does not already exist.
 
@@ -8,7 +8,7 @@ Creates a directory if it does not already exist.
 const dirpath = await manager.createDir('New Folder');
 ```
 
-### `manager.mkdir(dirnames: string|Array<string>): Promise<string|Array<string>>`
+##### `manager.mkdir(dirnames: string|Array<string>): Promise<string|Array<string>>`
 
 Creates directory(ies) if they do not already exist.
 

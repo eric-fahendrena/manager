@@ -1,6 +1,6 @@
 # Remove directories
 
-### `manager.removeDir(dirpath: string)`
+##### `manager.removeDir(dirpath: string)`
 
 Delete a directory if it is not empty.
 
@@ -8,7 +8,7 @@ Delete a directory if it is not empty.
 await manager.removeDir('My Folder');
 ```
 
-### `manager.rmdir(dirpaths: string|Array<string>)`
+##### `manager.rmdir(dirpaths: string|Array<string>)`
 
 Delete one or multiple directories if they are not empty.
 

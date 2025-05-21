@@ -96,7 +96,7 @@ const list = await manager.ls();
 - [Create files](./doc/create-files.md)
 - [Create directories](./doc/create-directories.md)
 - [Change current working directory](./doc/change-directory.md)
-- [Renaming](./doc/rename.md)
+- [Rename file or directory](./doc/rename.md)
 - [List informations](./doc/list-infos.md)
 - [Copy, cut and paste](./doc/copy-cut-paste.md)
 - [Remove files](./doc/remove-files.md)

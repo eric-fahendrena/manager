@@ -1,6 +1,6 @@
 # Rename file or directory
 
-### `manager.rename(fpath: string, dest: string): Promise<string|false>`
+##### `manager.rename(fpath: string, dest: string): Promise<string|false>`
 
 Renames the file or directory. This returns `false` if `dest` argument specifies an existing path.
 

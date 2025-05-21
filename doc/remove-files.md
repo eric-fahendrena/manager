@@ -1,6 +1,6 @@
 # Remove files
 
-### `manager.removeFile(fpath: string)`
+##### `manager.removeFile(fpath: string)`
 
 Deletes file.
 
@@ -8,7 +8,7 @@ Deletes file.
 await manager.removeFile('example.file');
 ```
 
-### `manager.rm(fpaths: string|Array<string>)`
+##### `manager.rm(fpaths: string|Array<string>)`
 
 Delete one or multiple files.
 
