@@ -91,6 +91,10 @@ await manager.cd('..');
 const list = await manager.ls();
 ```
 
+## Documentation
+
+- [./doc/create-files.md](Create files)
+
 ## License
 
 MIT
