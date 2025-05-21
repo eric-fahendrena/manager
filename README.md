@@ -1,5 +1,7 @@
 # manageio
 
+![Manageio logo](./assets/manageio-logo.png)
+
 A Node.js module that makes exploring files easier.
 
 Whether you want to create a file explorer, automate browsing, or simply generate working template, this module makes it easy.
