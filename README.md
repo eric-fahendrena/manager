@@ -93,7 +93,7 @@ const list = await manager.ls();
 
 ## Documentation
 
-- [./doc/create-files.md](Create files)
+- [Create files](./doc/create-files.md)
 
 ## License
 
