@@ -90,3 +90,7 @@ await manager.cd('..');
 // lists informations about files and directories in current working directory
 const list = await manager.ls();
 ```
+
+## License
+
+MIT
