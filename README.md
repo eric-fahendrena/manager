@@ -53,18 +53,14 @@ const { Manager } = require('manageio');
 ```js
 const manager = new Manager('./example 1');
 
-// creates directory
 await manager.createDir('Folder 1');
-
-// changes working directory (navigate to 'Folder 1')
+// changes working directory
 await manager.changeDir('Folder 1');
 
 // current working directory is now './example 1/Folder 1'
 
 // creates a sub-directory in current working directory : './example 1/Folder 1/Subfolder'
 await manager.createDir('Subfolder');
-
-// creates an empty file in current working directory
 await manager.createFile('example.file');
 ```
 
@@ -73,21 +69,14 @@ await manager.createFile('example.file');
 ```js
 const manager = new Manager('./example 2');
 
-// creates one or multiple directories with mkdir
 await manager.mkdir([ 'Folder 1', 'Folder 2', 'Folder 3' ]);;
-
-// creates a file if it doesn't exist yet.
 await manager.touch('example.file');
-
-// changes working directory ('./example 2' to './example 2/Folder 1').
 await manager.cd('Folder 1');
 
 // current working directory is now './example 2/Folder 1'
 
-// creates multiple files in current working directory
+// create multiple files
 await manager.touch([ 'file 1', 'file 2', 'file 3' ]);
-
-// returns to parent directory ('./example 2')
 await manager.cd('..');
 
 // current directory is now './example 2'
